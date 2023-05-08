@@ -23,8 +23,6 @@ typedef std::vector<Clause> Cnf;
 // 1. This function uses any trivial algorithm.
 bool decomposeRelationTrivial(const Relation& relation, unsigned int n);
 
-void generate_subrelations(const Relation& R, std::vector<Relation>& subrelations);
-bool satisfied(const Relation& subrelation);
 
 // 2. This function creates a simple reformulation of the problem as CNF-SAT.
 // Keep things simple.
